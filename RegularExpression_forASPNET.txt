@@ -1,0 +1,46 @@
+ValidationExpression="\d+"
+\d{5}
+\d{1,5}                                                     
+\d
+
+ValidationExpression="\D" // single capital expression
+\D+   // multiple digit
+
+[A-Z]     // single capital only 
+[A-Z]+    // multiple capital
+[A-E]{2}  // only 2 A to E
+
+[A-Za-z]+ // multiple small and capital both allow
+
+[A-Za-Z0-9] // Error aai thi
+
+\w // for digit capital small underscore
+
+\w+ // for multiple
+
+\W // for special character
+                                                      
+[abc] // only single single a b c
+[abc]+ // for multiple
+
+[a.c] // single allow 
+[a1c] //single allow
+
+[0-9] // single 0 to 9
+
+[^0-9] // not allow 0 to 9
+
+[^0-5] // not allow 0 to 5
+
+\d* // multi value 0 to n 
+
+\d? // single digit
+
+(ab)  // allow only ab 
+
+(ab)+ // multiple ab
+
+\.  // for . use
+
+.+\@.+\..+   // for email 
+
